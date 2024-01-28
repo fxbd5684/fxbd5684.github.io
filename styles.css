@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #540091, #000000, #00188d);
+    color: white;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s; /* 添加过渡效果 */
+    /* display: block; */
+    flex-direction: column;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* .intro {
+    background-color: #540091;
+}
+
+.projects {
+    background-color: #000000;
+}
+
+.contact {
+    background-color: #00188d;
+} */
+@font-face {
+    font-family: 'Brush Script';
+    src: url('./Brush-Script.ttf') format('truetype');
+  }
+.fixed-title {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 1); /* 使用带有透明度的白色 */
+
+}
