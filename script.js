@@ -10,9 +10,9 @@ $(document).ready(function () {
   
         if (windowScroll >= offset && windowScroll < offset + height) {
           if (index % 3 === 0) {
-            $(element).css("transform", "translateX(-300px)");
+            $(element).css("transform", "translateX(0px)");
           } else if (index % 3 === 1) {
-            $(element).css("transform", "translateX(300px)");
+            $(element).css("transform", "translateX(0px)");
           } else {
             $(element).css("transform", "translateX(0)");
           }
